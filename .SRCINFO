@@ -1,0 +1,15 @@
+pkgbase = atools
+	pkgdesc = APKBUILD and aports linter for Alpine Linux
+	pkgver = 19.0.3
+	pkgrel = 1
+	url = https://gitlab.alpinelinux.org/Leo/atools
+	arch = x86_64
+	license = MIT
+	checkdepends = bats-core
+	makedepends = scdoc
+	makedepends = redo-c
+	source = atools-19.0.3.tar.gz::https://gitlab.alpinelinux.org/Leo/atools/-/archive/19.0.3/atools-19.0.3.tar.gz
+	sha256sums = ce4312fa86f72b3344b84c01e70d4bc1da36b015a22c4c83250906445d46408a
+
+pkgname = atools
+
